@@ -12,6 +12,9 @@
     margin: 0;
     padding: 0;
     font-family: Montserrat, sans-serif;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 a {
     text-decoration: none;
@@ -64,12 +67,12 @@ ul {
     display: flex;
     margin: 0 20px;
     font-size: 13px;
-}
-.menu li {
-    padding: 10px;
-}
-.menu li a:hover {
-    color: chocolate;
+    li {
+        padding: 10px;
+    }
+    li a:hover {
+        color: chocolate;
+    }
 }
 .btn {
     background-color: chocolate;
@@ -108,7 +111,7 @@ ul {
 }
 .home_section h1 {
     font-family: Ageya;
-    font-size: 120px;
+    font-size: 80px;
     line-height: 140px;
     font-weight: 400;
     text-align: center;
@@ -163,14 +166,14 @@ ul {
 .div4 {
     grid-area: 1 / 4 / 3 / 6;
 }
-.div1 img {
+/* .div1 img {
     transform: rotate(2deg);
     box-shadow: 0 0 0 10px none;
 }
 .div2 img {
     transform: rotate(-2deg);
     box-shadow: 0 0 0 10px none;
-}
+} */
 .div3 p, .div4 p {
     font-size: 70px;
     background-color: chocolate;
@@ -278,11 +281,10 @@ ul {
     display: flex;
     margin: 0 20px;
     font-size: 13px;
-}
-.logos li {
-    padding: 7px;
-    
-}
-img {
-    width: 30px;
+    li {
+        padding: 7px;
+    }
+    img {
+        width: 30px;
+    }
 }
