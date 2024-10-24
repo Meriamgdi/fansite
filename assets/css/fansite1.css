@@ -133,7 +133,8 @@ ul {
     padding: 15px 30px;
 }
 
-/* Gallery */
+/* Section 2 Intro (images et texte) */
+
 .gallery {
     padding: 10px 250px;
     display: grid;
@@ -144,6 +145,7 @@ ul {
     height: 600px;
 }
 .gallery img {
+    margin-top: 20px;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -153,7 +155,7 @@ ul {
     grid-area: 3 / 3 / 5 / 5;
 }
 .div2 {
-    grid-area: 2 / 2 / 2 / 2;
+    grid-area: 1 / 1 / 3 / 3;
 }
 .div3 {
     grid-area: 4 / 1 / 6 / 3;
@@ -178,7 +180,7 @@ ul {
     text-align: center;
 }
 
-/* Section Corps des pages Bio et Rea */
+/* Section des pages 3 et 4 (Bio et Rea) */
 
 main {
     display: flex;
@@ -190,14 +192,31 @@ main section {
     align-items: center;
     flex-wrap: wrap;
 }
-.pic img {
+.bio {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
-    width: 280px;
-    margin: 10%;
-    border-radius: 7px;
+    background-color: rgba(210, 105, 30, 0.397);
+
+    div {
+        padding: 2%;
+
+        p {
+            text-align: justify;
+        }
+    }
+
+    .pic img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        width: 200px;
+        margin: 2%;
+        border-radius: 7px;
+    }
 }
 .pics img {
     display: flex;
@@ -212,14 +231,25 @@ main section {
 }
 p {
     display: flex;
-    flex-direction: column;
+    text-align: justify;
     justify-content: center;
     text-align: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     line-height: 30px;
-    text-transform: inherit;
     font-size: 20px;
+}
+
+/* Section 5 Formulaire de contact */
+
+.form-eddy input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    padding: 6px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
 }
 
 /* Section footer */
