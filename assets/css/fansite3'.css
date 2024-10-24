@@ -1,16 +1,11 @@
 body {
     
-    background-image: url(../images/Korn_background.webp);
+    background-image: url(imagesfansite3/Korn_background.webp);
     
     h1 {
         font-family: Knewave;
         color: white;
         font-size: x-large;
-    }
-    h2 {
-        font-family: Knewave;
-        color: white;
-        text-align: center;
     }
     .titrepage {
         display: flex;
@@ -46,28 +41,6 @@ menu {
     }
 }
 
-.logoAccueil{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    width: 300px;
-    background-color: rgba(77, 75, 75, 0.808);
-    border-radius: 10px;
-    margin-bottom: 20px;
-
-
-}
-#logoAccueil{
-    width: 280px;
-    margin: 20px;
-}
-
-#texteAccueil{
-display: flex;
-text-align: center;
-}
-
-
 .diap {
     display: flex;
     flex-wrap: wrap;
@@ -97,7 +70,7 @@ text-align: center;
     width: 220px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.6);
-    padding: 20px;
+    padding: 5px;
     margin: 15px;
     text-align: left;
 
@@ -108,40 +81,4 @@ text-align: center;
 
     }
 }
-
-.concerts {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-    .concert{
-        display: flex;
-        flex-direction: column;
-        width: 220px;
-        height: auto;
-        border-radius: 10px;
-        background-color: rgba(255, 255, 255, 0.6);
-        padding: 15px;
-        margin: 15px;
-        text-align: left;
-
-    }
-.reseaux{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-    .reseau{
-        display: flex;
-        flex-wrap: wrap;
-        width: 220px;
-        border-radius: 10px;
-        background-color: rgba(255, 255, 255, 0.6);
-        padding: 20px;
-        margin: 15px;
-        text-align: center;
-    }
-
 }
