@@ -77,8 +77,7 @@ margin-left: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-  
-      }
+  }
 .home img{
       
        display: flex;
@@ -108,7 +107,8 @@ height: 80px;
   .blocnoir-1, .blocnoir3, .blocnoir0, .blocnoir, .blocnoir1, .blocnoir2{
     background-color: #000;
 }
-.coloc, .coloc1, .coloc{
+.coloc, .coloc
+{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

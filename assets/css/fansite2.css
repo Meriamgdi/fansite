@@ -16,6 +16,7 @@
 body{
     background-color: rgb(129, 139, 182);
     text-align: center;
+   
 }
 a{
     text-decoration: 0;
@@ -155,4 +156,141 @@ p{
 /* home */
 hr{
     margin: 30px;
+}
+
+.home {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+      }
+.home img{
+      
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       justify-content: space-between;
+       flex-direction: column;
+       align-items: center;
+    height: 450px;
+    width: 350px;
+
+ }
+
+.homeright  {
+    display: flex;
+   justify-content: center;
+   flex-direction: row;
+   margin-top: 40px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #5e493a;
+   padding: 15px;
+}
+.nvhomeright{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+.hometext {
+    display: flex;
+    flex-direction: column;
+}
+.textpartprinc{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+}
+
+.pentathlon img, .course img, .longueur img, .disque img, .lutte img, .equitation img, .boxe img, .blocnoir0, .blocnoir, .blocnoir1, .blocnoir2{
+   
+    width: 100px;
+    height: 100px;
+}
+  .blocnoir-1, .blocnoir3, .blocnoir0, .blocnoir, .blocnoir1, .blocnoir2{
+    background-color: #000;
+}
+.coloc, .coloc1, .coloc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.medaille1  , .medaille2  , .medaille3  {
+    width: 300px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+}
+.benjamintomas img, .jorisdaudet img, .leonmarchand img{
+    height: 100px;
+    width: 100px;
+}
+.blocsepar{
+    
+    height: 200px;
+    height: 200px;
+    display: flex;
+    background-color: aqua;
+   
+    justify-content: center;
+}
+
+ .titrehome{
+    text-transform: uppercase;
+    font-size: 55px;
+   
+    color: #5e493a;
+    align-items: center;
+    text-align: center;
+    
+}
+h3{
+    text-decoration: 0;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.titrehome{
+    height: 70px;
+    height: 100px;
+    background-color: rgb(53, 48, 41);
+}
+
+.titrehome2{
+    justify-content: space-between;
+    height: 70px;
+    height: 100px;
+    background-color: bisque;
+}
+.titreantique{
+    display: flex;
+    text-align: center;
+   
+}
+@media screen and (max-widh: 500px){
+    .home .homeleft .homebutton .homeabou-us .title .homeright .textpartprinc .parpartprinc .titrehome .titreantique .homeright .nvhomeright .blocnoir .pentathlon .course .longueur .disque .lutte .equitation .boxe {
+        width: 1200px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-widh: 350px){
+    .home .homeleft .homebutton .homeabou-us .title .homeright .textpartprinc .parpartprinc .titrehome .titreantique .homeright .nvhomeright .blocnoir .pentathlon .course .longueur .disque .lutte .equitation .boxe {
+        width: 1200px;
+        display: flex;
+        flex-direction: column;
+    }
 }
