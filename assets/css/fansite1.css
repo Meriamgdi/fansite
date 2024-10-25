@@ -15,6 +15,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    box-sizing: border-box;
 }
 a {
     text-decoration: none;
@@ -88,15 +89,17 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
     text-align: center;
     padding: 10px 50px;
 }
 .img_text {
     margin-top: 70px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 85%;
 }
 .img_text img {
     height: 500px;
@@ -139,13 +142,13 @@ ul {
 /* Section 2 Intro (images et texte) */
 
 .gallery {
-    padding: 10px 250px;
     display: grid;
     grid-template-columns: repeat(5 , 1fr);
     grid-template-rows: repeat(5 , 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     height: 600px;
+    padding: 10px 250px;
 }
 .gallery img {
     margin-top: 20px;
@@ -166,6 +169,7 @@ ul {
 .div4 {
     grid-area: 1 / 4 / 3 / 6;
 }
+
 /* .div1 img {
     transform: rotate(2deg);
     box-shadow: 0 0 0 10px none;
@@ -175,7 +179,7 @@ ul {
     box-shadow: 0 0 0 10px none;
 } */
 .div3 p, .div4 p {
-    font-size: 70px;
+    font-size: 45px;
     background-color: chocolate;
     font-family: Canopee;
     padding: 10px;
@@ -253,6 +257,9 @@ p {
     margin: 5%;
     padding: 6px;
     box-shadow: 0 0 2px rgba(0,0,0,0.2);
+    .textarea {
+        padding: 10px;
+    }
 }
 
 /* Section footer */
@@ -286,5 +293,66 @@ ul {
     }
     img {
         width: 30px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    header {
+        margin: -20% 2% 0 2%;
+
+        .menu {
+            margin: 0;
+        }
+    }
+
+    .home_section h1 {
+        font-size: 52px;
+        line-height: normal;
+        margin-top: 4%;
+    }
+
+    .img_text {
+        flex-direction: column-reverse;
+        width: initial;
+
+        .text {
+            width: initial;
+            text-align: center;
+
+            h2 {
+                margin-top: 5%;
+            }
+
+            p {
+                text-align: center;
+            }
+
+            .btn {
+                margin-top: 0;
+                margin-bottom: 5%;
+            }
+        }
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        height: initial;
+        padding: initial;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .img_text {
+        width: initial;
+        justify-content: space-evenly;
+    }
+
+    .img_text img {
+        width: initial;
+    }
+
+    .gallery {
+        padding: 10px 10px;
     }
 }
