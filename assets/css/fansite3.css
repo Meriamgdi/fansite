@@ -1,0 +1,165 @@
+body {
+    
+    background-image: url(../images/Korn_background.webp);
+    
+    h1 {
+        font-family: Knewave;
+        color: white;
+        font-size: x-large;
+    }
+    h2 {
+        font-family: Knewave;
+        color: white;
+        text-align: center;
+    }
+
+    #retourFansite{
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        border-radius: 10px;
+        margin: auto;
+        
+    }
+
+    .titrepage {
+        display: flex;
+        margin: auto;
+        width: 220px;
+        height: 75px;
+        border-radius: 50px;
+        background-color: rgba(77, 75, 75, 0.808);
+            .titre {
+            font-family: Knewave;
+            color: white;
+            font-size: x-large;
+            margin: auto;
+            }
+            
+    }
+menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+    border-radius: 10px;
+    background-color: rgba(77, 75, 75, 0.808);
+    font-family: Knewave;
+    color: white;
+
+    .knewave-regular {
+        font-family: "Knewave", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+    li {
+        padding: 15px;
+    }
+}
+
+.logoAccueil{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 300px;
+    background-color: rgba(224, 94, 94, 0.808);
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+
+}
+#logoAccueil{
+    width: 280px;
+    margin: 20px;
+}
+
+#texteAccueil{
+display: flex;
+background-color: rgba(77, 75, 75, 0.808);
+border-radius: 15px;
+max-width: 900px;
+padding: 10px;
+text-align: center;
+margin: auto;
+margin-bottom: 30px;
+}
+
+
+.diap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+
+    img {
+    border: solid white;
+    border: 5%;
+    border-radius: 15px;
+    margin: 15px;
+    width: 220px;
+    height: auto;
+
+    
+}
+}
+.albums {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.album {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    margin: 15px;
+    text-align: left;
+
+    img {
+        width: 200px;
+        border-radius: 5px;
+        padding: 10px;
+
+    }
+}
+
+.concerts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+    .concert{
+        display: flex;
+        flex-direction: column;
+        width: 220px;
+        height: auto;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 15px;
+        margin: 15px;
+        text-align: left;
+
+    }
+.reseaux{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+    .reseau{
+        display: flex;
+        flex-wrap: wrap;
+        width: 220px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.6);
+        padding: 20px;
+        margin: 15px;
+        text-align: center;
+    }
+
+}
